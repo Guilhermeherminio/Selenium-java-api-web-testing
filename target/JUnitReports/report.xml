@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="4.443">
+    <testcase classname="Title of your feature" name="Validate that the user is able to add a new user with a job" time="2.879">
+        <system-out><![CDATA[Given I use user creation service...........................................passed
+When I set name Toy.........................................................passed
+When I set job singer.......................................................passed
+When I create the user......................................................passed
+Then I validate the user and job was created with success...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="Validate that the user is able to delete a user" time="0.7">
+        <system-out><![CDATA[Given I use user creation service...........................................passed
+When I set name Toy.........................................................passed
+When I set job singer.......................................................passed
+When I delete the user......................................................passed
+Then I validate the user and job was deleted with success...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="Validate that the user is able to create a new register with success" time="0.71">
+        <system-out><![CDATA[Given I use register creation service.......................................passed
+When I set e-mail challenge@automation.com..................................passed
+When I create a register....................................................passed
+Then I validate the register was created without success....................passed
+]]></system-out>
+    </testcase>
+</testsuite>
